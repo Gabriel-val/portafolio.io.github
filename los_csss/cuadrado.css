@@ -1,0 +1,84 @@
+/* Contenedor que actúa como el rectángulo grande */
+.rectangulo {
+    width: 980px;
+    height: 1158px; /* Altura cambiada a 7000px */
+    background-color: rgba(255, 255, 255, 0.8); /* Gris opaco */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0 auto; /* Centrado horizontal */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Barra de navegación */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(172, 167, 167);
+
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+  
+}
+.imgbor{
+    border-radius: 20%;
+}
+
+.circle-btn {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* Contenido principal */
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color:rgb(172, 167, 167);
+    width: 980;
+
+    border-end-end-radius: 2.5%;
+    border-end-start-radius: 2.5%
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.large-text {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Estilo para separar el párrafo con un margen del 10% */
+.conteiner {
+    margin-top: 10%; /* Separación del 10% desde el bloque anterior */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+
+.secon p {
+    text-align: center;
+    font-size: 1.75rem; /* Aumento del 40% en el tamaño del texto */
+    font-weight: bold; /* Poner el texto en negritas */
+}
+
+/* Estilo de las celdas de la tabla */
+table td {
+    padding: 15px;
+    border-bottom: 1px solid black; /* Línea solo entre filas */
+}
+
+table tr:last-child td {
+    border-bottom: none; /* Elimina la línea del último elemento */
+}
